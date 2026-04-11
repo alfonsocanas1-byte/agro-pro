@@ -79,14 +79,14 @@ class AgroProApp:
             st.header("🎨 Módulos de Arte")
             st.subheader("🖼️ Alfonso Cañas")
             # Precios simplificados según solicitud
-            st.write("Precios: **$2.000** y **$15.000**")
+            st.write("Precios: $2.000 y $15.000")
             if aco:
                 if st.button("Ver Fotos e Imágenes"):
                     st.session_state.pagina_actual = "acouniverso"; st.rerun()
             
             st.divider()
             st.subheader("☕ Santiago Arango")
-            st.write("• Mugs de colección: **$38.000**")
+            st.write("• Mugs de colección: $38.000")
             if santi:
                 if st.button("Ver Mugs Colección"):
                     st.session_state.pagina_actual = "mugs_santiago"; st.rerun()
